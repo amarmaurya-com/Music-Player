@@ -10,17 +10,17 @@ let songItem = Array.from(document.getElementsByClassName('songItem'));
 
 let song = [
     {songName: "Love me lic you do", filePath: "songs/m1.mp3", coverPath:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE4A4xrHvU-bGk2kM7JyWFWSABbhAANWgqhA&s"},
-    {songName: "love Bite", filePath: "songs/m2.mp3", coverPath:"https://d1csarkz8obe9u.cloudfront.net/posterpreviews/artistic-album-cover-design-template-d12ef0296af80b58363dc0deef077ecc_screen.jpg?ts=1735798846"},
-    {songName: "Xhan", filePath: "songs/m3.mp3", coverPath:"https://c.saavncdn.com/074/Dancing-With-Your-Ghost-English-2019-20190624173146-500x500.jpg"},
+    {songName: "Pain", filePath: "songs/m2.mp3", coverPath:"https://d1csarkz8obe9u.cloudfront.net/posterpreviews/artistic-album-cover-design-template-d12ef0296af80b58363dc0deef077ecc_screen.jpg?ts=1735798846"},
+    {songName: " Dancing With Your Ghost    ", filePath: "songs/m3.mp3", coverPath:"https://c.saavncdn.com/074/Dancing-With-Your-Ghost-English-2019-20190624173146-500x500.jpg"},
     {songName: "Until I Found You", filePath: "songs/m4.mp3", coverPath:"https://i.scdn.co/image/ab67616d0000b2738792c3e96f8ab97a767c5d0c"},
     {songName: "Let Her Go", filePath: "songs/m5.mp3", coverPath:"https://i.scdn.co/image/ab67616d00001e028614b96ce7be8b1371295263"},
     {songName: "Let Me Down Slowly", filePath: "songs/m6.mp3", coverPath:"https://img.youtube.com/vi/9Od17y-4iR0/sddefault.jpg"},
     {songName: "See You Again", filePath: "songs/m7.mp3", coverPath:"https://i.ytimg.com/vi/RgKAFK5djSk/maxresdefault.jpg   "},
-    {songName: "Let Me Down Slowly", filePath: "songs/m8.mp3", coverPath:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfbjN7w7QD9kZgJWl5XpLlH5rFlzEebWFG1w&s"},
+    {songName: "Peaches", filePath: "songs/m8.mp3", coverPath:"https://i.ytimg.com/vi/tQ0yjYUFKAE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC-sHFh9eNkWQL7mAkvEo1lOVKBGA"},
     {songName: "Alone, Pt. II", filePath: "songs/m9.mp3", coverPath:"https://i1.sndcdn.com/artworks-000658994143-me2it4-t500x500.jpg"},
     {songName: "Get You The Moon", filePath: "songs/m10.mp3", coverPath:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTzD-DMVkfimlY8x0tE2xntofz3ZFkWXybWWZr0ychSlrGc7etRpMIPgfrFkodQ1kzhqg&usqp=CAU"},
     {songName: "Falling Like The Stars", filePath: "songs/m11.mp3", coverPath:"https://static1.squarespace.com/static/56454c01e4b0177ad4141742/56f3eeaa6e06f2df013dd6cd/56f3ef166e06f2df013de90c/1458827030375/Covers-Vol.-1-Cover.jpg?format=original"},
-    {songName: "Falling Like The Stars", filePath: "songs/m12.mp3", coverPath:"https://i.ytimg.com/vi/BlAiJXRdQxE/sddefault.jpg"},
+    {songName: "Someone you love", filePath: "songs/m12.mp3", coverPath:"https://i.ytimg.com/vi/BlAiJXRdQxE/sddefault.jpg"},
 ]
 
 songItem.forEach((element,i)=>{
