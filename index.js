@@ -139,3 +139,31 @@ document.getElementById('previous').addEventListener('click', (e) => {
     e.target.classList.remove('fa-solid', 'fa-play');
     e.target.classList.add('fa-solid', 'fa-pause');
 })
+
+// Add event listener to each song item
+let SongIndex = -1; // Track currently playing song
+
+songItem.forEach((element, i) => {
+    element.addEventListener('click', () => {
+        if (currentSongIndex === i && !audioElement.paused) {
+            // Pause if the same song is clicked
+            audioElement.pause();
+            masterPlay.classList.remove('fa-solid', 'fa-pause');
+            masterPlay.classList.add('fa-solid', 'fa-play');
+            console.log('paused');
+        } else {
+            // Play new song or resume
+            mastersongName.innerText = song[i].songName;
+            audioElement.src = `songs/m${i + 1}.mp3`;
+            audioElement.currentTime = 0;
+            audioElement.play();
+            masterPlay.classList.remove('fa-solid', 'fa-play');
+            masterPlay.classList.add('fa-solid', 'fa-pause');
+            console.log('started');
+
+            // Update current song
+            currentSongIndex = i;
+        }
+    });
+});
+
