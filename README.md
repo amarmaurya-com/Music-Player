@@ -11,6 +11,7 @@
     -> HTML-5
     -> CSS3
     -> JavaScript (ES6)
-🚀 Live Demo
-    ->🔗 Check it out here!
+## 🚀 **Live Demo**
+🔗 [Check it out here!](https://amarmaurya-com.github.io/Music-Player/)
+
 
